@@ -41,7 +41,6 @@ body {
     width: 1440px;
     margin: 0 auto;
     text-align: center;
-    padding-bottom: 128px;
 }
 
 .inlineBlock {
@@ -114,12 +113,17 @@ button.section-btn {
 }
 
 /* Feature Section CSS */
+
+section.featured-section {
+    padding-bottom: 128px;
+}
+
 .featured-tree p {
     color: #272727;
     text-align: center;
     font-size: 24px;
     font-weight: 700;
-    line-height: 35px; /* 145.833% */
+    line-height: 35px; 
     text-decoration-line: underline;
 }
 .featured-content {
@@ -131,18 +135,74 @@ button.section-btn {
     width: 370px;
     display: grid;
     height: 470px;
-    gap: 50%;
     padding: 110px 42px 0 42px;
-    margin-right: 20px;
+    margin-right: 35px;
+}
+
+.featured-tree:last-child  img {
+    margin-right: 0;
 }
 
 .featured-tree 
  p.featured-tree-title {
     margin-top: 32px;
 }
+
+
 /* Delivery Section */
 
+section.delivery-section {
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
+    margin-bottom: 150px;
+    padding: 87px 0px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+section.delivery-section .flower-delivery img {
+    width: 88px;
+    margin-bottom: 15px;
+}
+
+/* Offer Section Style CSS */
+section.offer-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 0;
+    margin-bottom: 130px;
+}
+
+section.offer-section button {
+    margin-top: 51px;
+}
+
+.offer-content {
+    margin-right: 140px;
+    text-align: center;
+}
+
+.offer-content .section-title span {
+    color:  #E55473;
+}
+
+
+
+/* Instagram Style CSS */
+
+section.instagram-section {
+    margin-bottom: 150px;
+}
+
+  .instagram-images {
+    display: flex;
+    gap: 24px;
+    margin-bottom: 150px;
+}
+
 /* Footer Section */
+
 footer {
     background-color: #111010;
     color: #fff;

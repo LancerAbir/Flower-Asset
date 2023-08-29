@@ -386,6 +386,14 @@ section.instagram-section {
     margin-top: 50px;
 }
 
+.instagram-images img:hover {
+    background-color: #000;
+    opacity: .50;
+    z-index: 99;
+    transition: .3s;
+    cursor: pointer;
+}
+
 
 /* Subscribe Style CSS */
 .subscribe-section{

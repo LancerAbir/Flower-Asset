@@ -41,6 +41,7 @@ body {
     width: 1440px;
     margin: 0 auto;
     text-align: center;
+    margin-bottom: 100px;
 }
 
 .inlineBlock {
@@ -170,6 +171,8 @@ section.delivery-section .flower-delivery img {
 
 .reviews-box {
     display: flex;
+    justify-content: space-between;
+    align-items: stretch;
 }
 
 .rate-box {

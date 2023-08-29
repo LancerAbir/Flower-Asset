@@ -19,6 +19,20 @@ body {
 
 /* Similar CSS Style */
 
+.sectionBG {
+    background-color: rgba(229, 84, 115, 0.1);
+}
+
+.section-container {
+    width: 1440px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.inlineBlock {
+    display: inline-block;
+}
+
 h3.section-title {
     color: #272727;
     text-align: center;
@@ -35,6 +49,25 @@ p.section-sub-title {
 }
 
 /* Header Section CSS */
+
+.header-content {
+    display: flex;
+    margin: 0 auto;
+    text-align: left;
+    align-items: center;
+}
+
+.header-description {
+    width: 50%;
+    margin-right: 100px;
+}
+
+.header-image img {
+    width: 635px;
+    height: 800px;
+    flex-shrink: 0;
+}
+
 .header-description .project-title {
     color: #272727;
     font-size: 80px;

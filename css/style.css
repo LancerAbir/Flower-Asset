@@ -173,6 +173,7 @@ section.delivery-section .flower-delivery img {
     display: flex;
     justify-content: space-between;
     align-items: stretch;
+    gap: 2%;
 }
 
 .rate-box {
@@ -227,6 +228,82 @@ button.read-more {
     color: #fff;
     font-size: 23px;
     font-weight: 800;
+}
+
+
+button.read-more {
+    background-color: #e55473;
+    padding: 10px 35px;
+    border: 0px;
+    margin-top: 15px;
+    border-radius: 7px;
+    color: #fff;
+    font-size: 23px;
+    font-weight: 800;
+}
+
+.review-list {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 0px 20px 20px 20px;
+    box-shadow: 7px 13px 14px #ddd;
+}
+
+.review-author {
+    display: flex;
+}
+
+.review-content p {
+ 
+    font-size: 18px;
+    font-weight: 800;
+}
+
+.review-content p {
+    border-bottom: 0;
+}
+    
+
+.review-author h3 {
+    margin-right: 15px;
+    font-size: 20px;
+}
+
+
+.review-list p {
+    color: #999;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #ddd;
+}
+
+
+
+.meta-tag {
+    display: flex;
+    justify-content: flex-start;
+    position: relative;
+}
+
+
+.review-list p i {
+    color: #e55473;
+    margin-right: 10px;
+}
+
+.meta-tag p {
+    border-bottom: 0;
+    position: absolute;
+    top: 84px;
+    left: 0;
+    font-size: 18px;
+    color: #000;
+    font-weight: 700;
+}
+
+.meta-tag p span {
+    display: block;
+    font-size: 15px;
 }
 
 /* Offer Section Style CSS */

@@ -1,0 +1,106 @@
+/* Main CSS */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    max-width: 100%;
+}
+
+body {
+    font-family: "Lato", sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    line-height: 30px;
+    font-weight: 400;
+}
+
+/* Similar CSS Style */
+
+h3.section-title {
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+    line-height: normal;
+}
+
+p.section-sub-title {
+    color: rgba(39, 39, 39, 0.6);
+    text-align: center;
+    width: 590px;
+    margin: 0 auto;
+}
+
+/* Header Section CSS */
+.header-description .project-title {
+    color: #272727;
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    margin-bottom: 32px;
+}
+
+.header-description .project-description {
+    color: rgba(39, 39, 39, 0.6);
+    margin-bottom: 32px;
+}
+
+button.section-btn {
+    border-radius: 8px;
+    background: #e55473;
+    padding: 20px 43px;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 700;
+    border: none;
+}
+
+/* Feature Section CSS */
+.featured-tree p {
+    color: #272727;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 35px; /* 145.833% */
+    text-decoration-line: underline;
+}
+
+/* Delivery Section */
+
+/* Footer Section */
+footer {
+    background-color: #111010;
+    color: #fff;
+}
+
+.footer.content h2 {
+    color: #e55473;
+    font-size: 48px;
+    font-weight: 800;
+    margin-bottom: 24px;
+}
+
+.footer.content h2 span {
+    color: #fff;
+}
+
+.footer.content {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    width: 625px;
+    margin: 0 auto;
+    padding: 180px 0;
+    text-align: center;
+}
+
+.footer.content .copy-right {
+    color: rgba(255, 255, 255, 0.4);
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 32px;
+}

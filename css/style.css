@@ -113,6 +113,15 @@ button.section-btn {
     border: none;
 }
 
+button.section-btn:hover {
+    background-color: #fff;
+    color: #e55473;
+    transition: .5s;
+    cursor: pointer;
+}
+
+
+
 /* Feature Section CSS */
 
 section.featured-section {
@@ -149,6 +158,30 @@ section.featured-section {
     margin-top: 32px;
 }
 
+.featured-tree:hover p {
+    color: #e55473;
+    transition: .3s;
+    cursor: pointer;
+}
+
+.featured-tree:hover img.colorBG-one {
+    background-color: rgba(44, 2, 23, 0.15);
+    transition: .3s;
+    border-radius: 150px 150px 0px 0px;
+}
+
+.featured-tree:hover img.colorBG-two {
+    background-color: rgba(1, 35, 37, 0.15);
+    transition: .3s;
+    border-radius: 150px 150px 0px 0px;
+}
+
+.featured-tree:hover img.colorBG-three {
+    background-color: rgba(15, 29, 1, 0.15);
+    transition: .3s;
+    border-radius: 150px 150px 0px 0px;
+}
+
 
 /* Delivery Section */
 
@@ -168,6 +201,12 @@ section.delivery-section .flower-delivery img {
 
 
 /* Reviews Section Style CSS */
+
+
+section.reviews-section .reviews-box {
+    margin-top: 80px;
+}
+
 
 .reviews-box {
     display: flex;
@@ -228,18 +267,16 @@ button.read-more {
     color: #fff;
     font-size: 23px;
     font-weight: 800;
+    border: 2px solid #e55473;
 }
 
 
-button.read-more {
-    background-color: #e55473;
-    padding: 10px 35px;
-    border: 0px;
-    margin-top: 15px;
-    border-radius: 7px;
-    color: #fff;
-    font-size: 23px;
-    font-weight: 800;
+button.read-more:hover {
+    background-color: #fff;
+    color: darkcyan;
+    transition: .5s;
+    cursor: pointer;
+    border: 2px solid darkcyan;
 }
 
 .review-list {
@@ -305,6 +342,13 @@ button.read-more {
     display: block;
     font-size: 15px;
 }
+
+
+.review-list:hover {
+    box-shadow: none;
+    transition: .3s;
+}
+
 
 /* Offer Section Style CSS */
 section.offer-section {
